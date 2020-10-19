@@ -12,15 +12,15 @@
         <TabItem IsSelected="True" >
             <TabItem.Header>
                 <StackPanel Orientation="Horizontal">
-                    <Ellipse Width="10" Height="10" Fill="Red"/>
-                    <TextBlock>Page2</TextBlock>
+                    <Ellipse Margin="4,0,4,0" Width="10" Height="10" Fill="Red"/>
+                    <TextBlock FontSize="14">Page2</TextBlock>
                 </StackPanel>
             </TabItem.Header>
             <GroupBox >
                 <GroupBox.Header>
                     <CheckBox>Groupbox Header</CheckBox>
                 </GroupBox.Header>
-                <Expander IsExpanded="True" Header="My Expander"  Foreground="White">
+                <Expander IsExpanded="True" Header="My Expander" Foreground="White">
                     <Expander.Background>
                         <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
                             <GradientStop Color="#FF18F0FF" Offset="0.5"/>

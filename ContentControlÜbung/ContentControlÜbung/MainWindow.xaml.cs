@@ -23,6 +23,7 @@ namespace ContentControlÜbung
         public MainWindow()
         {
             InitializeComponent();
+            
         }
     }
 }
