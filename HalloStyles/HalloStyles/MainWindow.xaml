@@ -85,12 +85,12 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border  Background="AliceBlue" BorderThickness="6" BorderBrush="red" CornerRadius="12">
-                            <Grid>
-                                <Ellipse Fill="Blue"/>
-                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                            </Grid>
-                        </Border>
+                        <!--<Border  Background="AliceBlue" BorderThickness="6" BorderBrush="red" CornerRadius="12">-->
+                        <Grid>
+                            <Ellipse Fill="Blue"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <!--</Border>-->
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
@@ -105,13 +105,16 @@
         <Button Margin="20" Style="{StaticResource myCustomButton}">
             Super Button
         </Button>
-        <Button Margin="20" Style="{StaticResource myCustomButton}">
-            <StackPanel>
-                <Image Source="Assets/table.png" Stretch="None"/>
-                <TextBlock>Hallo</TextBlock>
-            </StackPanel>
-        </Button>
+        <Button Click="Button_Click_2">
 
+            <Button Click="Button_Click_1" Margin="20" Style="{StaticResource myCustomButton}">
+                <StackPanel>
+                    <Image Source="Assets/table.png" Stretch="None"/>
+                    <TextBlock>Hallo</TextBlock>
+                </StackPanel>
+            </Button>
+
+        </Button>
         <Button Style="{StaticResource myBetterStyle}" Click="Button_Click">Button</Button>
         <Button Style="{StaticResource myBetterStyle}">Button</Button>
         <Button x:Name="b">Button</Button>

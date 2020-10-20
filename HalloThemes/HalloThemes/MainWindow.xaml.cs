@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HalloStyles
+namespace HalloThemes
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,22 +23,6 @@ namespace HalloStyles
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            b.Background = new SolidColorBrush(Colors.Red);
-            b.SetValue(BackgroundProperty, new SolidColorBrush(Colors.Red));
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("lala");
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("2222");
         }
     }
 }
