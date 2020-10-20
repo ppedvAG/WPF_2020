@@ -1,0 +1,31 @@
+﻿<Window x:Class="HalloRessourcen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HalloRessourcen"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d" 
+        Title="MainWindow" Height="350" Width="200">
+    <Window.Resources>
+        <SolidColorBrush Color="Orange" x:Key="myColor"/>
+        <system:Double x:Key="mySize">28.6</system:Double>
+    </Window.Resources>
+    <StackPanel>
+        <Button FontSize="{StaticResource mySize}"
+                Background="{StaticResource myColor}" x:Name="meinButton"
+                Foreground="{DynamicResource myFontColor}" Click="ChangeColor" >Button</Button>
+        <Button Background="{DynamicResource myColor}"
+                Foreground="{DynamicResource myFontColor}">Button</Button>
+        <Button Background="{StaticResource myColor}"
+                Foreground="{DynamicResource myFontColor}">Button</Button>
+        <WrapPanel>
+            <WrapPanel.Resources>
+                <SolidColorBrush Color="Green" x:Key="myColor"/>
+            </WrapPanel.Resources>
+            <Button Background="{StaticResource myColor}">Button</Button>
+            <Button Background="{StaticResource myColor}">Button</Button>
+            <Button Background="{StaticResource myColor}">Button</Button>
+        </WrapPanel>
+    </StackPanel>
+</Window>

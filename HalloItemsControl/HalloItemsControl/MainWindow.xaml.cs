@@ -69,8 +69,15 @@ namespace HalloItemsControl
 
         private void DataGridShowPersonen(object sender, RoutedEventArgs e)
         {
+            foreach (var item in myGrid.SelectedItems)
+            {
+
+            }
+
             if (myGrid.SelectedItems.Count > 0)
-                MessageBox.Show(string.Join(", ", myGrid.SelectedItems.Cast<Person>().Select(x => x.Name)));
+                MessageBox.Show(string.Join(", ", myGrid.SelectedItems.Cast<Person>()
+                                                        .Where(x => !string.IsNullOrEmpty(x.Name))
+                                                        .Select(x => x.Name)));
         }
     }
 
@@ -81,5 +88,7 @@ namespace HalloItemsControl
         public string Abteilung { get; set; }
         public string Stadt { get; set; }
         public DateTime GebDatum { get; set; }
+
+
     }
 }
