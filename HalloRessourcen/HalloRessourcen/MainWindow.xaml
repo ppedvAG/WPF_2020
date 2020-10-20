@@ -8,7 +8,7 @@
         mc:Ignorable="d" 
         Title="MainWindow" Height="350" Width="200">
     <Window.Resources>
-        <SolidColorBrush Color="Orange" x:Key="myColor"/>
+        <!--<SolidColorBrush Color="Orange" x:Key="myColor"/>-->
         <system:Double x:Key="mySize">28.6</system:Double>
     </Window.Resources>
     <StackPanel>
