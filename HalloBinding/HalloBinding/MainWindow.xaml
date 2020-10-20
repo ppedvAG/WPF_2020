@@ -8,7 +8,16 @@
         Title="MainWindow" Height="450" Width="400">
     <Window.Resources>
         <BooleanToVisibilityConverter  x:Key="boolToVisConv"/>
+        <local:BoolToColorConverter x:Key="boolToColorConv"/>
+        <local:SliderToColorConverter x:Key="sliderToColorConv"/>
     </Window.Resources>
+    <Window.Background>
+        <MultiBinding Converter="{StaticResource sliderToColorConv}">
+            <Binding ElementName="r" Path="Value"/>
+            <Binding ElementName="g" Path="Value"/>
+            <Binding ElementName="b" Path="Value"/>
+        </MultiBinding>
+    </Window.Background>
     <StackPanel>
         <TextBox Name="tb1"/>
         <TextBox Text="{Binding ElementName=tb1,Path=Text,UpdateSourceTrigger=PropertyChanged}"
@@ -22,5 +31,15 @@
                Source="user_clown.png" 
                Stretch="None" 
                HorizontalAlignment="Left"/>
+        <Rectangle Width="40" Height="40" Stroke="Black" StrokeThickness="1"
+                   Fill="{Binding ElementName=cb1,Path=IsChecked,Converter={StaticResource boolToColorConv}}"/>
+
+        <GroupBox Header="RGB">
+            <StackPanel>
+                <Slider Name="r" Maximum="255" IsSnapToTickEnabled="True"/>
+                <Slider Name="g" Maximum="255" IsSnapToTickEnabled="True"/>
+                <Slider Name="b" Maximum="255" IsSnapToTickEnabled="True"/>
+            </StackPanel>
+        </GroupBox>
     </StackPanel>
 </Window>
