@@ -5,7 +5,7 @@ using System.Windows.Media;
 
 namespace HalloBinding
 {
-    internal class SliderToColorConverter : IMultiValueConverter
+     class SliderToColorConverter : IMultiValueConverter
     {
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
         {
