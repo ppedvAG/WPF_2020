@@ -17,7 +17,7 @@ namespace HalloBinding
             var timer = new System.Timers.Timer();
             timer.Interval = 500;
             timer.Elapsed += Timer_Elapsed;
-            timer.Start();
+            //timer.Start();
 
             ts = TaskScheduler.FromCurrentSynchronizationContext();
         }

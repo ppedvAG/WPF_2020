@@ -10,6 +10,10 @@
         <BooleanToVisibilityConverter  x:Key="boolToVisConv"/>
         <local:BoolToColorConverter x:Key="boolToColorConv"/>
         <local:SliderToColorConverter x:Key="sliderToColorConv"/>
+        <local:Person x:Key="fred" Abteilung="Steine" Name="Fred" Id="7" GebDatum="04.04.4004"/>
+        <local:Person x:Key="wilma" Abteilung="Steine" Name="Wilma" Id="12" GebDatum="08.08.1024"/>
+
+        <!--<local:Person x:Key="fred"/>--><!-- Person fred = new Person() -->
     </Window.Resources>
     <Window.Background>
         <MultiBinding Converter="{StaticResource sliderToColorConv}">
@@ -19,6 +23,23 @@
         </MultiBinding>
     </Window.Background>
     <StackPanel>
+        <GroupBox Header="Person Direkt Source Binding">
+            <StackPanel>
+                <TextBlock Text="{Binding Source={StaticResource fred},Path=Name}"/>
+                <TextBlock Text="{Binding Source={StaticResource fred},Path=Abteilung}"/>
+                <DatePicker SelectedDate="{Binding Source={StaticResource fred},Path=GebDatum}"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="Person DataContext Binding">
+            <StackPanel DataContext="{Binding Source={StaticResource wilma}}">
+                <TextBlock Text="{Binding Path=Name}"/>
+                <TextBlock Text="{Binding Path=Abteilung}"/>
+                <DatePicker SelectedDate="{Binding Path=GebDatum}"/>
+            </StackPanel>
+        </GroupBox>
+
+
         <TextBox Name="tb1"/>
         <TextBox Text="{Binding ElementName=tb1,Path=Text,UpdateSourceTrigger=PropertyChanged}"
                  Background="{Binding ElementName=tb1,Path=Text}"/>
@@ -36,7 +57,7 @@
 
         <GroupBox Header="RGB">
             <StackPanel>
-                <Slider Name="r" Maximum="255" IsSnapToTickEnabled="True"/>
+                <Slider Name="r" Maximum="255" Value="122" IsSnapToTickEnabled="True"/>
                 <Slider Name="g" Maximum="255" IsSnapToTickEnabled="True"/>
                 <Slider Name="b" Maximum="255" IsSnapToTickEnabled="True"/>
             </StackPanel>
