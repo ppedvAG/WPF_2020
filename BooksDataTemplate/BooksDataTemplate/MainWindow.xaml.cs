@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using Newtonsoft.Json;
+using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Windows;
 
@@ -22,6 +24,11 @@ namespace BooksDataTemplate
 
             jsonTb.Text = json;
 
+            BookResults bookResults = JsonConvert.DeserializeObject<BookResults>(json);
+            bookListBox.ItemsSource = bookResults.items.Select(x => x.volumeInfo);
+            bookListBox.DisplayMemberPath = "title";
+
+            myGrid.ItemsSource = bookResults.items.Select(x => x.volumeInfo);
         }
 
         private void SearchOffline(object sender, RoutedEventArgs e)
@@ -30,6 +37,11 @@ namespace BooksDataTemplate
 
             jsonTb.Text = json;
 
+            BookResults bookResults = JsonConvert.DeserializeObject<BookResults>(json);
+            bookListBox.ItemsSource = bookResults.items.Select(x => x.volumeInfo);
+            bookListBox.DisplayMemberPath = "title";
+
+            myGrid.ItemsSource = bookResults.items.Select(x => x.volumeInfo); 
         }
     }
 }

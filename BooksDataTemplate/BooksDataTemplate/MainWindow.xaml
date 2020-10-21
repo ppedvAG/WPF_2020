@@ -27,6 +27,9 @@
             <TabItem Header="List">
                 <ListBox Name="bookListBox"/>
             </TabItem>
+            <TabItem Header="Grid">
+                <DataGrid Name="myGrid"/>
+            </TabItem>
         </TabControl>
 
     </DockPanel>
