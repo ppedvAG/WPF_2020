@@ -12,10 +12,12 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition/>
                 <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
             <Label>Buch</Label>
-            <TextBox Margin="4,0" Grid.Column="1"/>
-            <Button Padding="20,0" Grid.Column="2">Suche</Button>
+            <TextBox Name="suchTb" Margin="4,0" Grid.Column="1"/>
+            <Button Click="Search" Padding="20,0" Grid.Column="2">Suche</Button>
+            <Button Click="SearchOffline" Padding="20,0" Grid.Column="3">Suche Offline</Button>
         </Grid>
 
         <TabControl Margin="8">

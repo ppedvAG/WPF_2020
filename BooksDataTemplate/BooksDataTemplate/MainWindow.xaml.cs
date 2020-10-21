@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
+using System.Net.Http;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace BooksDataTemplate
 {
@@ -23,6 +12,24 @@ namespace BooksDataTemplate
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private async void Search(object sender, RoutedEventArgs e)
+        {
+            var url = $"https://www.googleapis.com/books/v1/volumes?q={suchTb.Text}";
+            var http = new HttpClient();
+            var json = await http.GetStringAsync(url);
+
+            jsonTb.Text = json;
+
+        }
+
+        private void SearchOffline(object sender, RoutedEventArgs e)
+        {
+            var json = File.ReadAllText("BooksOffline.json");
+
+            jsonTb.Text = json;
+
         }
     }
 }

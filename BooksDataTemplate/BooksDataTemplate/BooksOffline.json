@@ -1,0 +1,861 @@
+﻿{
+  "kind": "books#volumes",
+  "totalItems": 407,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "VPVIDwAAQBAJ",
+      "etag": "r53MrOuDyfU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VPVIDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Software entwickeln mit C#, WPF und dem MVVM-Konzept",
+        "authors": [
+          "Stefan Kunick"
+        ],
+        "publisher": "BoD – Books on Demand",
+        "publishedDate": "2018-01-25",
+        "description": "Ein Buch für den Einstieg in die Softwareentwicklung unter dem MVVM-Konzept. Anhand praktischer Beispiele lernen Sie das Konzept kennen. Das Buch nimmt Sie hier an die Hand und führt übersichtlich von einem Schritt zum anderen. Legen Sie das Buch einfach links oder rechts neben Ihre Tastatur. Später dient Ihnen das Buch als praktisches Nachschlagewerk. Als Programmiersprache nutzen Sie hier C# und Sie arbeiten mit der Windows Präsentation Form.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783746022895"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3746022894"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 152,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.0.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VPVIDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VPVIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=VPVIDwAAQBAJ&printsec=frontcover&dq=wpf&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=VPVIDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VPVIDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 13.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=VPVIDwAAQBAJ&rdid=book-VPVIDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Software_entwickeln_mit_C_WPF_und_dem_MV-sample-epub.acsm?id=VPVIDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Software_entwickeln_mit_C_WPF_und_dem_MV-sample-pdf.acsm?id=VPVIDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VPVIDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Ein Buch für den Einstieg in die Softwareentwicklung unter dem MVVM-Konzept."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Z7NPAgAAQBAJ",
+      "etag": "sQYN8tBZwFU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Z7NPAgAAQBAJ",
+      "volumeInfo": {
+        "title": "WPF 4.5 und XAML",
+        "subtitle": "Grafische Benutzeroberflächen für Windows inkl. Entwicklung von Windows Store Apps",
+        "authors": [
+          "Jörg Wegener"
+        ],
+        "publisher": "Carl Hanser Verlag GmbH  Co KG",
+        "publishedDate": "2012-12-06",
+        "description": "WPF 4.5 UND XAML // - Für angehende und fortgeschrittene WPF-Entwickler mit fundierten .NET-Kenntnissen - Praktischer Leitfaden mit umfassendem Know-how – von den Basics bis zu professionellen Techniken - Nachschlagewerk für die tägliche Arbeit - Mit zahlreichen Anwendungsbeispielen aus für Entwickler typischen Alltagssituationen - Alle Beispiele aus dem Buch unter: www.downloads.hanser.de Mit der Windows Presentation Foundation verfügen .NET-Entwickler über ein mächtiges und flexibles Instrument zur Entwicklung moderner Desktop-Applikationen – von der einfachen Oberfläche bis hin zur geschäftlichen Anwendung. Diese Bandbreite gibt den Rahmen für dieses Buch vor: Jörg Wegener beschreibt detailliert die zentralen Elemente der WPF 4.5, ihre zugrunde liegenden Konzepte und die in WPF implementierte Beschreibungssprache XAML. Zahlreiche Beispiele zeigen Ihnen den professionellen Einsatz des Frameworks in Situationen, mit denen Sie als Entwickler tagtäglich konfrontiert sind. Einen Schwerpunkt dieser Neuauflage bilden die Neuerungen von WPF 4.5 und Visual Studio 2012. Hier geht es u.a. um die Entwicklung von Apps für Windows 8 mit XAML und der Windows Runtime. Außerdem neu hinzugekommen sind die Themen: Eingabesteuerung via Maus, Tastatur und Touchscreen; das Entwurfsmuster Model-View-View-Model; Installation und Aktualisierung von Anwendungen beim Kunden; Gestaltung mit Expression Blend. AUS DEM INHALT: Einführung in WPF & XAML // Layout & Steuerelemente // Aufbau von Anwendungen // Styles, Templates // Daten & Datenbindungen // 2D-Grafik & Multimedia // 3D-Grafik, Animationen // Individuelle Anpassungen // Eingabesteuerung in WPF // WPF & Windows Forms // Dokumente & Drucken // Mehrsprachigkeit // Browseranwendungen // MVVM-Entwurfsmuster // Windows Store Apps & WinRT // Anwendungen installieren & verteilen // Expression Blend",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783446435414"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3446435417"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 704,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Z7NPAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Z7NPAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=Z7NPAgAAQBAJ&pg=PR17&dq=wpf&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Z7NPAgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Z7NPAgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 39.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 39.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Z7NPAgAAQBAJ&rdid=book-Z7NPAgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 39990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 39990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/WPF_4_5_und_XAML-sample-pdf.acsm?id=Z7NPAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Z7NPAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Als die Windows Presentation Foundation (oder kurz \u003cb\u003eWPF\u003c/b\u003e) im Jahre 2003 auf der \u003cbr\u003e\nProfes- sional Conference in Los Angeles vorgestellt wurde, konnte ich mir ihr \u003cbr\u003e\nPotential kaum vor- stellen. In den folgenden Jahren entdeckte ich jedoch die&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "vHbOzpIu8lEC",
+      "etag": "asEcFq2ZQXQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vHbOzpIu8lEC",
+      "volumeInfo": {
+        "title": "Konzeptionelle Untersuchung der Windows Presentation Foundation (WPF)",
+        "authors": [
+          "Ronny Böttger"
+        ],
+        "publisher": "GRIN Verlag",
+        "publishedDate": "2008",
+        "description": "Projektarbeit aus dem Jahr 2008 im Fachbereich Informatik - Programmierung, Note: 1,0, Hochschule Harz - Hochschule fur angewandte Wissenschaften (FH), 69 Quellen im Literaturverzeichnis, Sprache: Deutsch, Abstract: Die vorliegende Arbeit beschaftigt sich mit konzeptionellen Untersuchungen rund um die Windows Presentation Foundation (WPF) der Firma Microsoft. Die WPF ist eine Klassenbibliothek zur Gestaltung von grafischen Benutzeroberflachen. Sie ist ein Bestandteil des .NET 3.0 Frameworks. Im Rahmen dieser Arbeit werden Technologien analysiert, die bisher zur Visualisierung von Computergrafiken und zur Gestaltung von Programmoberflachen verwendet wurden. Die Vorteile und Nachteile dieser Technologien werden mit denen der Windows Presentation Foundation verglichen. Die Hauptproblematik dieser Arbeit ist die Untersuchung der Einsatzfahigkeit der WPF. Dabei wird erforscht, ob die WPF alle aktuellen Anforderungen an die Entwicklung grafisch anspruchsvoller Programmoberflachen erfullt und ob es Aussagen uber die Weiterentwicklung der Windows Presentation Foundation gibt. Weiterhin wird untersucht, inwiefern die WPF mit traditionellen Technologien kombiniert werden kann. Abschliessend werden Beispielprogramme vorgestellt und es wird eine Anleitung fur das Verwenden der Windows Presentation Foundation gegeben. This paper deals with conceptual examinations around the Windows Presentation Foundation (WPF) of the company Microsoft. The WPF is a class library to the formation of graphicel user interfaces. It is a feature of the .NET 3.0 Framework. Within the scope of this work, technologies are analyzed, that were used for the visualization of computer graphics and to the formation of program surfaces until now. The advantages and disadvantages of these technologies are compared with those of the Windows Presentation Foundation. The main problem of this work is the examination of the operational ness of the WPF. It will explore on that occasion whether the WPF meets all cur",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783640143801"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3640143809"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 82,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vHbOzpIu8lEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vHbOzpIu8lEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=vHbOzpIu8lEC&pg=PA6&dq=wpf&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.de/books?id=vHbOzpIu8lEC&dq=wpf&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Konzeptionelle_Untersuchung_der_Windows.html?hl=&id=vHbOzpIu8lEC"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vHbOzpIu8lEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Die \u003cb\u003eWPF\u003c/b\u003e kann als Nachfolger von GDI und GDI+ angesehen werden. Im \u003cbr\u003e\nGegensatz zu seinen Vorgängern setzt \u003cb\u003eWPF\u003c/b\u003e auf DirectX auf und bietet dadurch \u003cbr\u003e\nvolle Hardwarebeschleunigung. (vgl.[5]) Hardwarebeschleunigung ist ein Begriff \u003cbr\u003e\naus der&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "558i6t1dKEAC",
+      "etag": "LKlqH2Zq+sw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/558i6t1dKEAC",
+      "volumeInfo": {
+        "title": "Programming WPF",
+        "subtitle": "Building Windows UI with Windows Presentation Foundation",
+        "authors": [
+          "Chris Sells",
+          "Ian Griffiths"
+        ],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2007-08-28",
+        "description": "If you want to build applications that take full advantage of Windows Vista's new user interface capabilities, you need to learn Microsoft's Windows Presentation Foundation (WPF). This new edition, fully updated for the official release of .NET 3.0, is designed to get you up to speed on this technology quickly. By page 2, you'll be writing a simple WPF application. By the end of Chapter 1, you'll have taken a complete tour of WPF and its major elements. WPF is the new presentation framework for Windows Vista that also works with Windows XP. It's a cornucopia of new technologies, which includes a new graphics engine that supports 3-D graphics, animation, and more; an XML-based markup language, called XAML, for declaring the structure of your Windows UI; and a radical new model for controls. This second edition includes new chapters on printing, XPS, 3-D, navigation, text and documents, along with a new appendix that covers Microsoft's new WPF/E platform for delivering richer UI through standard web browsers -- much like Adobe Flash. Content from the first edition has been significantly expanded and modified. Programming WPF includes: Scores of C# and XAML examples that show you what it takes to get a WPF application up and running, from a simple \"Hello, Avalon\" program to a tic-tac-toe game Insightful discussions of the powerful new programming styles that WPF brings to Windows development, especially its new model for controls A color insert to better illustrate WPF support for 3-D, color, and other graphics effects A tutorial on XAML, the new HTML-like markup language for declaring Windows UI An explanation and comparison of the features that support interoperability with Windows Forms and other Windows legacy applications WPF represents the best of the control-based Windows world and the content-based web world. Programming WPF helps you bring it all together.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0596554796"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780596554798"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 864,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.7.5.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=558i6t1dKEAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=558i6t1dKEAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.de/books?id=558i6t1dKEAC&pg=PA168&dq=wpf&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=558i6t1dKEAC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=558i6t1dKEAC"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 33.6,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 23.52,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=558i6t1dKEAC&rdid=book-558i6t1dKEAC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 33600000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 23520000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=558i6t1dKEAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Without some kind of engine for shuttling data back and forth between data \u003cbr\u003e\nsources and controls, you&#39;re going to be writing a great deal of code. With \u003cb\u003eWPF&#39;s\u003c/b\u003e \u003cbr\u003e\ndata binding engine, you get more features with less code, which is always a nice\u003cbr\u003e\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nYl7J7z3KssC",
+      "etag": "TYYxqf/5Ygc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nYl7J7z3KssC",
+      "volumeInfo": {
+        "title": "Pro WPF in C# 2010",
+        "subtitle": "Windows Presentation Foundation in .NET 4",
+        "authors": [
+          "Matthew MacDonald"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2010-04-28",
+        "description": "Microsoft's Windows Presentation Foundation (WPF) provides the foundation for building applications and high-quality user experiences for the Windows operating system. It blends the application user interface, documents, and media content, while exploiting the full power of your computer's operating system. Its functionality extends to the support for tablet PCs and other forms of input device, and it provides a more modern imaging and printing pipeline, accessibility and UI automation infrastructure, data-driven user interfaces and visualization, and integration points for weaving the application experience into the Windows shell. This book shows you how WPF really works. It provides you with the no-nonsense, practical advice that you need in order to build high-quality WPF applications quickly and easily. After giving you a firm foundation, it goes on to explore the more advance aspects of WPF and how they relate to the others elements of the .NET 4.0 platform and associated technologies such as Silverlight.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "143027204X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781430272045"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 1216,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.9.7.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nYl7J7z3KssC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nYl7J7z3KssC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.de/books?id=nYl7J7z3KssC&pg=PA195&dq=wpf&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=nYl7J7z3KssC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=nYl7J7z3KssC"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 49.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 34.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=nYl7J7z3KssC&rdid=book-nYl7J7z3KssC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 49990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 34990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Pro_WPF_in_C_2010-sample-epub.acsm?id=nYl7J7z3KssC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Pro_WPF_in_C_2010-sample-pdf.acsm?id=nYl7J7z3KssC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nYl7J7z3KssC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Se8OSNB95rcC",
+      "etag": "RUqYMknWeJA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Se8OSNB95rcC",
+      "volumeInfo": {
+        "title": "Foundations of WPF",
+        "subtitle": "An Introduction to Windows Presentation Foundation",
+        "authors": [
+          "Laurence Moroney"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2007-03-01",
+        "description": "Windows Presentation Foundations (WPF), formerly code-named Avalon, is part of a suite of new technologies collectively known as ‘The WinFX stack’. The suite, coupled with ancillary technologies such as XAML and LINQ provides a powerful addition to the .NET 2.0 Framework for creating applications for Windows Vista, and WinFX-enabled Windows XP computers. This book explains what WPF is, how it can be used and how it fits into the wider picture of new WinFX technologies. Readers get quickly up to speed with new coding techniques and processes needed for successful WPF coding, and receive a thorough practical grounding in how the technologies can be used.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1430203609"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781430203605"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 324,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Se8OSNB95rcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Se8OSNB95rcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.de/books?id=Se8OSNB95rcC&pg=PA22&dq=wpf&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.de/books?id=Se8OSNB95rcC&dq=wpf&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Foundations_of_WPF.html?hl=&id=Se8OSNB95rcC"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Foundations_of_WPF-sample-epub.acsm?id=Se8OSNB95rcC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Foundations_of_WPF-sample-pdf.acsm?id=Se8OSNB95rcC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Se8OSNB95rcC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This is the entry point into the \u003cb\u003eWPF\u003c/b\u003e composition system. It displays data by \u003cbr\u003e\ntraversing the data structures managed by the milcore, and these are \u003cbr\u003e\nrepresented using a hierarchical display tree with rendering instructions at each \u003cbr\u003e\nnode ofthe tree."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "QKjrXE550vgC",
+      "etag": "FkOunRxt5qk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QKjrXE550vgC",
+      "volumeInfo": {
+        "title": "Das C# 2010 Codebook",
+        "authors": [
+          "Jürgen Bayer"
+        ],
+        "publisher": "Pearson Deutschland GmbH",
+        "publishedDate": "2010",
+        "description": "Das C# 2010 Codebook bietet mit mehr als 400 \"Rezepten\" fertige Lösungen zu praxisbezogenen, bei der Arbeit mit C# 4.0 und dem .NET Framework 4.0 täglich auftretenden Programmierproblemen. Alle Rezepte sind in Kategorien sortiert und somit sehr leicht auffindbar. Die CD zum Buch enthält neben Beispielen für alle Rezepte und umfangreichen zusätzlichen Artikeln alle Codes in einem durchsuchbaren HTML-Repository, sodass diese sehr schnell in eigene Projekte eingefügt werden können. Zu .NET 4.0 nun völlig überarbeitet.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "3827329035"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9783827329035"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 1271,
+        "printType": "BOOK",
+        "categories": [
+          "C# (Computer program language)"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QKjrXE550vgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QKjrXE550vgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=QKjrXE550vgC&pg=PA789&dq=wpf&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.de/books?id=QKjrXE550vgC&dq=wpf&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Das_C_2010_Codebook.html?hl=&id=QKjrXE550vgC"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QKjrXE550vgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003eWPF\u003c/b\u003e Dieses Kapitel enthält spezielle Rezepte für die Anwendungsentwicklung \u003cbr\u003e\nmit \u003cb\u003eWPF\u003c/b\u003e . Auf WPFGrundlagen gehe ich ( natürlich ) nicht ein . Gerade bei \u003cb\u003eWPF\u003c/b\u003e \u003cbr\u003e\nist es aber sehr schwierig , die Grundlagen von dem speziellen Wissen zu&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "6mrDfCo4GvYC",
+      "etag": "1Jtw1jnAe+Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6mrDfCo4GvYC",
+      "volumeInfo": {
+        "title": "WPF Programmer's Reference",
+        "subtitle": "Windows Presentation Foundation with C# 2010 and .NET 4",
+        "authors": [
+          "Rod Stephens"
+        ],
+        "publisher": "John Wiley & Sons",
+        "publishedDate": "2010-05-27",
+        "description": "Build effective user interfaces with Windows Presentation Foundation Windows Presentation Foundation (WPF) is included with the Windows operating system and provides a programming model for building applications that provide a clear separation between the UI and business logic. Written by a leading expert on Microsoft graphics programming, this richly illustrated book provides an introduction to WPF development and explains fundamental WPF concepts. Packed with helpful examples, this reference progresses through a range of topics that gradually increase in their complexity. You’ll quickly start building applications while you learn how to use both Expression Blend and Visual Studio to build UIs. In addition, the book addresses the needs of programmer who write the code behind the UI and shows you how operations can be performed using both XAML and C#. Topics Covered: Overview of WPF WPF in Visual Studio Expression Blend Common Properties Content Controls Layout Controls User Interaction Controls Two-Dimensional Drawing Controls Properties Pens and Brushes Events and Code-Behind Resources Styles and Property Triggers Event Triggers and Animation Templates Themes and Skins Printing Data Binding Commanding Transformations and Effects Documents Navigation-Based Applications Three-Dimensional Drawing Silverlight Even if you only have a minimal amount of experience, by the end of the book, you will be able to build dynamic and responsive user interfaces with WPF.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780470632079"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0470632070"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 624,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.9.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=6mrDfCo4GvYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=6mrDfCo4GvYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.de/books?id=6mrDfCo4GvYC&pg=PT285&dq=wpf&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=6mrDfCo4GvYC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=6mrDfCo4GvYC"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 35.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 35.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=6mrDfCo4GvYC&rdid=book-6mrDfCo4GvYC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 35990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 35990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/WPF_Programmer_s_Reference-sample-epub.acsm?id=6mrDfCo4GvYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/WPF_Programmer_s_Reference-sample-pdf.acsm?id=6mrDfCo4GvYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=6mrDfCo4GvYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "pywkKAyhwGIC",
+      "etag": "nMrx8Wmhn60",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/pywkKAyhwGIC",
+      "volumeInfo": {
+        "title": "Visual C# 2008",
+        "subtitle": "Windows-Programmierung mit dem .NET Framework 3.5",
+        "authors": [
+          "Jürgen Bayer"
+        ],
+        "publisher": "Pearson Deutschland GmbH",
+        "publishedDate": "2008",
+        "description": "Umfassende Darstellung der Programmierpraxis im .NET-Framework 3.5 inklusive fortgeschrittener Techniken wie LINQ, WPF oder Multithreading.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "3827243394"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9783827243393"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 1338,
+        "printType": "BOOK",
+        "categories": [
+          "C# (Computer program language)"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=pywkKAyhwGIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=pywkKAyhwGIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=pywkKAyhwGIC&pg=PA785&dq=wpf&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.de/books?id=pywkKAyhwGIC&dq=wpf&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Visual_C_2008.html?hl=&id=pywkKAyhwGIC"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=pywkKAyhwGIC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003eWPF\u003c/b\u003e-Anwendungen. Nachdem Kapitel 12 die Grundlagen von \u003cb\u003eWPF\u003c/b\u003e zum Thema \u003cbr\u003e\nhatte, geht es in diesem Kapitel nun um die Anwendungsentwicklung mit \u003cb\u003eWPF\u003c/b\u003e. \u003cbr\u003e\nIch lege dabei den Fokus auf die Entwicklung von Standardanwendungen, nicht\u003cbr\u003e\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "moU2ItQBNugC",
+      "etag": "rqCbhhQ2Mp0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/moU2ItQBNugC",
+      "volumeInfo": {
+        "title": "Essential Windows Presentation Foundation (WPF)",
+        "authors": [
+          "Chris Anderson"
+        ],
+        "publisher": "Addison-Wesley Professional",
+        "publishedDate": "2007-04-11",
+        "description": "Windows Presentation Foundation (WPF) replaces Microsoft’s diverse presentation technologies with a unified, state-of-the-art platform for building rich applications. WPF combines the best of Windows and the Web; fully integrates user interfaces, documents, and media; and leverages the full power of XML-based declarative programming. In Essential Windows Presentation Foundation, former WPF architect Chris Anderson systematically introduces this breakthrough platform, focusing on the concepts and techniques working developers need in order to build robust applications for real users. Drawing on his unique experience as an architect on the team, Anderson thoroughly illuminates the crucial new concepts underlying WPF and reveals how its APIs work together to offer developers unprecedented value. Through working sample code, you’ll discover how WPF draws on the Web’s simple models for markup and deployment, common frame for applications, and rich server connectivity, and on Windows’ rich client model, simple programming model, strong control over look-and-feel, and rich networking. Topics explored in depth include WPF components and architecture Key WPF design decisions–and why they matter XAML markup language Controls Layouts Visuals and media, including 2D, 3D, video, and animation Data integration Actions Styles WPF Base Services",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780132701617"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0132701618"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 512,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.5.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=moU2ItQBNugC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=moU2ItQBNugC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.de/books?id=moU2ItQBNugC&pg=PP48&dq=wpf&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.de/books?id=moU2ItQBNugC&dq=wpf&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Essential_Windows_Presentation_Foundatio.html?hl=&id=moU2ItQBNugC"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=moU2ItQBNugC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
