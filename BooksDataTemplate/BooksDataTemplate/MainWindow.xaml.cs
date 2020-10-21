@@ -25,8 +25,8 @@ namespace BooksDataTemplate
             jsonTb.Text = json;
 
             BookResults bookResults = JsonConvert.DeserializeObject<BookResults>(json);
-            bookListBox.ItemsSource = bookResults.items.Select(x => x.volumeInfo);
-            bookListBox.DisplayMemberPath = "title";
+            bookListBox.ItemsSource = bookResults.items;
+            
 
             myGrid.ItemsSource = bookResults.items.Select(x => x.volumeInfo);
         }
@@ -38,8 +38,8 @@ namespace BooksDataTemplate
             jsonTb.Text = json;
 
             BookResults bookResults = JsonConvert.DeserializeObject<BookResults>(json);
-            bookListBox.ItemsSource = bookResults.items.Select(x => x.volumeInfo);
-            bookListBox.DisplayMemberPath = "title";
+            bookListBox.ItemsSource = bookResults.items;
+            
 
             myGrid.ItemsSource = bookResults.items.Select(x => x.volumeInfo); 
         }
