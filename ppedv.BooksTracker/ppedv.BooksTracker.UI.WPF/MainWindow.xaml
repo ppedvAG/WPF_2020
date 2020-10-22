@@ -1,0 +1,53 @@
+﻿<Window x:Class="ppedv.BooksTracker.UI.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ppedv.BooksTracker.UI.WPF"
+        mc:Ignorable="d"
+        Title="BooksTracker v0.1" Height="450" Width="600">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <Menu.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <DockPanel HorizontalAlignment="Stretch"/>
+                </ItemsPanelTemplate>
+            </Menu.ItemsPanel>
+            <MenuItem Header="Datei">
+                <MenuItem Header="Öffnen"/>
+                <MenuItem Header="Schließen"/>
+                <Separator/>
+                <MenuItem Header="Einstellungen"/>
+                <Separator/>
+                <MenuItem Header="Beenden"/>
+            </MenuItem>
+            <MenuItem Header="Bearbeiten">
+                <MenuItem Header="Kopieren"/>
+                <MenuItem Header="Ausschneiden"/>
+                <Separator/>
+                <MenuItem Header="Wichtige dinge"/>
+                <Separator/>
+                <MenuItem Header="Noch mehr zeug"/>
+            </MenuItem>
+            <MenuItem Header="Hilfe" HorizontalAlignment="Right">
+                <MenuItem Header="Hilfe anzeigen"/>
+                <Separator/>
+                <MenuItem Header="About"/>
+            </MenuItem>
+        </Menu>
+
+        <StatusBar DockPanel.Dock="Bottom" Height="22" Background="DarkSeaGreen"/>
+
+        <TabControl>
+            <TabItem Header="Bücher">
+
+            </TabItem>
+            <TabItem Header="Genres">
+
+            </TabItem>
+            <TabItem Header="Autoren">
+
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

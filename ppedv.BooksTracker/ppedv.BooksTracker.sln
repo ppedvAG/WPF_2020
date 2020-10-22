@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.BooksTracker.Data.EF.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.BooksTracker.Logic", "ppedv.BooksTracker.Logic\ppedv.BooksTracker.Logic.csproj", "{2ACA7053-FDBB-4688-9315-2FB207509D08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.BooksTracker.UI.WPF", "ppedv.BooksTracker.UI.WPF\ppedv.BooksTracker.UI.WPF.csproj", "{50389AC9-766D-4192-9716-F27ADBCFE6B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2ACA7053-FDBB-4688-9315-2FB207509D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ACA7053-FDBB-4688-9315-2FB207509D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ACA7053-FDBB-4688-9315-2FB207509D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50389AC9-766D-4192-9716-F27ADBCFE6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50389AC9-766D-4192-9716-F27ADBCFE6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50389AC9-766D-4192-9716-F27ADBCFE6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50389AC9-766D-4192-9716-F27ADBCFE6B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
