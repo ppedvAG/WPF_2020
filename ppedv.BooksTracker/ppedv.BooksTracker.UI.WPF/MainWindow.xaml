@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ppedv.BooksTracker.UI.WPF"
+        xmlns:view="clr-namespace:ppedv.BooksTracker.UI.WPF.View"
         mc:Ignorable="d"
         Title="BooksTracker v0.1" Height="450" Width="600">
     <DockPanel>
@@ -40,13 +41,13 @@
 
         <TabControl>
             <TabItem Header="Bücher">
-
+                <view:BooksView/>
             </TabItem>
             <TabItem Header="Genres">
-
+                <view:GenresView/>
             </TabItem>
             <TabItem Header="Autoren">
-
+                <view:AutorenView/>
             </TabItem>
         </TabControl>
     </DockPanel>
