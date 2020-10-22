@@ -23,8 +23,14 @@ namespace ppedv.BooksTracker.UI.WPF.ViewModel
             set
             {
                 selectedBook = value;
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedBook)));
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Alter)));
+//                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedBook)));
+//                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Alter)));
+
+
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("")); //update all
+
+
+
             }
         }
 
