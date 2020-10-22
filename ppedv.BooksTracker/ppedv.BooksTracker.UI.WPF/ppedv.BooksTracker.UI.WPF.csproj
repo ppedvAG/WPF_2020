@@ -63,6 +63,9 @@
     <Compile Include="View\BooksView.xaml.cs">
       <DependentUpon>BooksView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\GeburtstagsControl.xaml.cs">
+      <DependentUpon>GeburtstagsControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\GenresView.xaml.cs">
       <DependentUpon>GenresView.xaml</DependentUpon>
     </Compile>
@@ -83,6 +86,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\BooksView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\GeburtstagsControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -123,6 +130,7 @@
       <Link>EntityFramework.SqlServer.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="View\cake.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ppedv.BooksTracker.Logic\ppedv.BooksTracker.Logic.csproj">

@@ -48,6 +48,7 @@
                     <StackPanel Orientation="Horizontal">
                         <TextBlock>Published</TextBlock>
                         <TextBlock Text="{Binding Alter}"/>
+                        <local:GeburtstagsControl Age="{Binding SelectedBook.Published}"  />
                     </StackPanel>
                 </Label>
                 <DatePicker Grid.Row="2" Grid.Column="1" SelectedDate="{Binding SelectedBook.Published}"/>
