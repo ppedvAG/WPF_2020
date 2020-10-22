@@ -14,7 +14,7 @@
         <WrapPanel DockPanel.Dock="Top" Margin="8">
             <Button Command="{Binding SaveCommand}">Speichern</Button>
             <Button Command="{Binding NewCommand}">Neu</Button>
-            <Button Command="{Binding DeleteCommand}">Löschen</Button>
+            <Button Command="{Binding Path=DeleteCommand}">Löschen</Button>
         </WrapPanel>
         <Grid>
             <Grid.ColumnDefinitions>
@@ -44,7 +44,12 @@
                 <TextBox Grid.Column="1" Text="{Binding SelectedBook.Title}"/>
                 <Label Grid.Row="1">SubTitel</Label>
                 <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding SelectedBook.SubTitle}"/>
-                <Label Grid.Row="2">Published</Label>
+                <Label Grid.Row="2">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock>Published</TextBlock>
+                        <TextBlock Text="{Binding Alter}"/>
+                    </StackPanel>
+                </Label>
                 <DatePicker Grid.Row="2" Grid.Column="1" SelectedDate="{Binding SelectedBook.Published}"/>
                 <Label Grid.Row="3">ISBN</Label>
                 <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding SelectedBook.ISBN}"/>
