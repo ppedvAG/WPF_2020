@@ -55,7 +55,12 @@ namespace HalloAsync
             {
                 for (int i = 0; i <= 100; i++)
                 {
-                    Task.Factory.StartNew(() => pb1.Value = i, cts.Token, TaskCreationOptions.None, ts);
+                    Task.Factory.StartNew(() =>
+                    {
+                        //mehr logik
+                        pb1.Value = i;
+                    }, cts.Token, TaskCreationOptions.None, ts);
+
                     Thread.Sleep(20);
                     if (cts.IsCancellationRequested)
                         break;//cleanup

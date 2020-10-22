@@ -12,15 +12,19 @@ namespace HalloTPL
 
     class HalloDelegate
     {
+
+        public DelegateMitPara deleMitPara;
+
         public HalloDelegate()
         {
             EinfacherDelegate meinDele = EinfacheMethode;
             Action meinDeleAlsAction = EinfacheMethode;
+
             Action meinDeleAlsActionAno = delegate () { Console.WriteLine("Hallo"); };
             Action meinDeleAlsActionAno2 = () => { Console.WriteLine("Hallo"); };
             Action meinDeleAlsActionAno3 = () => Console.WriteLine("Hallo");
 
-            DelegateMitPara deleMitPara = MethodeMitPara;
+            deleMitPara = MethodeMitPara;
             Action<string> deleMitParaAlsAction = MethodeMitPara;
             DelegateMitPara deleMitParaAno = (string txt) => { Console.WriteLine(txt); };
             DelegateMitPara deleMitParaAno2 = (txt) => Console.WriteLine(txt);

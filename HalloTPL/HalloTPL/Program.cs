@@ -42,6 +42,10 @@ namespace HalloTPL
             Console.WriteLine($"T2 Result: {t2.Result}"); // ---> t2.Wait();
 
 
+
+            var hd = new HalloDelegate();
+            hd.deleMitPara.Invoke("Hallo");
+
             Console.WriteLine("Ende");
             Console.ReadKey();
         }
