@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F5B5377D-F5BB-46F3-95F3-CE8C3F61C7B0}</ProjectGuid>
+    <ProjectGuid>{2ACA7053-FDBB-4688-9315-2FB207509D08}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ppedv.BooksTracker.Model</RootNamespace>
-    <AssemblyName>ppedv.BooksTracker.Model</AssemblyName>
+    <RootNamespace>ppedv.BooksTracker.Logic</RootNamespace>
+    <AssemblyName>ppedv.BooksTracker.Logic</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,12 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Author.cs" />
-    <Compile Include="Book.cs" />
-    <Compile Include="Contracts\IRepository.cs" />
-    <Compile Include="Entity.cs" />
-    <Compile Include="Genre.cs" />
+    <Compile Include="Core.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ppedv.BooksTracker.Data.EF\ppedv.BooksTracker.Data.EF.csproj">
+      <Project>{21acad01-246c-4f84-aa8d-9bc74551829e}</Project>
+      <Name>ppedv.BooksTracker.Data.EF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ppedv.BooksTracker.Model\ppedv.BooksTracker.Model.csproj">
+      <Project>{f5b5377d-f5bb-46f3-95f3-ce8c3f61c7b0}</Project>
+      <Name>ppedv.BooksTracker.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

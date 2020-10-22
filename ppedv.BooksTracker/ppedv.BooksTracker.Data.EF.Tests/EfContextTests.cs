@@ -38,7 +38,7 @@ namespace ppedv.BooksTracker.Data.EF.Tests
         [TestMethod]
         public void EfContext_can_add_book()
         {
-            var b = new Book() { Title = "testbuch",Published =DateTime.Now };
+            var b = new Book() { Title = "testbuch", Published = DateTime.Now };
 
             using (var con = new EfContext())
             {
