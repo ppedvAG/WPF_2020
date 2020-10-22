@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ppedv.BooksTracker.Model;
 
 namespace ppedv.BooksTracker.Data.EF.Tests
 {
@@ -18,7 +19,7 @@ namespace ppedv.BooksTracker.Data.EF.Tests
 
             //Act
             con.Database.Create();
-            
+
 
             //Assert
             Assert.IsTrue(con.Database.Exists());
@@ -32,6 +33,24 @@ namespace ppedv.BooksTracker.Data.EF.Tests
             con.Database.CreateIfNotExists();
 
             con.Books.ToList();
+        }
+
+        [TestMethod]
+        public void EfContext_can_add_book()
+        {
+            var b = new Book() { Title = "testbuch",Published =DateTime.Now };
+
+            using (var con = new EfContext())
+            {
+                con.Books.Add(b);
+                con.SaveChanges();
+            }
+
+            using (var con = new EfContext())
+            {
+                var loaded = con.Books.Find(b.Id);
+                Assert.AreEqual(b.Title, loaded.Title);
+            }
         }
     }
 }
