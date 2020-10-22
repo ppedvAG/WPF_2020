@@ -13,9 +13,10 @@ namespace ppedv.BooksTracker.Data.EF
         { }
 
         //public EfContext() : this("Server=(localdb)\\mssqllocaldb;Database=BooksTracker;Trusted_Connection=true;")
-        public EfContext() : this("Server=tcp:einetolledb.database.windows.net,1433;Initial Catalog=dieDB_andre;Persist Security Info=False;User ID=Fred;Password=Hallo1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")
-        {
 
+        public EfContext() : this("Server=tcp:einetolledb.database.windows.net,1433;Initial Catalog=BookTracker_Andre;Persist Security Info=False;User ID=Fred;Password=Hallo1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=230;")
+        {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<EfContext, Migrations.Configuration>());
         }
     }
 }
