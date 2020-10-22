@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModel\BooksViewModel.cs" />
     <Compile Include="View\AutorenView.xaml.cs">
       <DependentUpon>AutorenView.xaml</DependentUpon>
     </Compile>
@@ -116,7 +117,20 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ViewModel\" />
+    <Content Include="..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll">
+      <Link>EntityFramework.SqlServer.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ppedv.BooksTracker.Logic\ppedv.BooksTracker.Logic.csproj">
+      <Project>{2aca7053-fdbb-4688-9315-2fb207509d08}</Project>
+      <Name>ppedv.BooksTracker.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ppedv.BooksTracker.Model\ppedv.BooksTracker.Model.csproj">
+      <Project>{f5b5377d-f5bb-46f3-95f3-ce8c3f61c7b0}</Project>
+      <Name>ppedv.BooksTracker.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
